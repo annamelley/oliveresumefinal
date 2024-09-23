@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Olly the Olive Resume</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Olive Resume, Casual or Gourmet">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Olly Olive">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            font-size: 100%;
+            line-height: 175%;
+            margin: 0;
+            padding: 0 15%;
+            background-image: url("greenbackground.jpeg");
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .top-bar {
+            background-color: #013220;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 30px;
+            z-index: 1000;
+        }
+
+        .bottom-bar {
+            background-color: #013220;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 30px;
+            z-index: 1000;
+        }
+
+        .content {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        h1 {
+        position: relative; 
+            }
+
+        h1::before {
+        content: "🫒";
+        font-size: 1em;
+            }
+
+        header {
+            margin-top: 0;
+            padding: 2em 0em 2em 0em;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.5);
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 1.5em;
+        }
+
+        li {
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li::before {
+            content: '';
+            background-image: url('olive.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        a:link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #551a8b;
+            text-decoration: none;
+        }
+
+        a:focus {
+            outline: 2px solid #ffcc00;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #ff6600;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+
+        .highlight::first-letter {
+    font-size: 2em; 
+    font-weight: bold;
+    color: #013220;
+    float: left;
+    margin-right: 2px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+<div class="top-bar">
+    Olly the Olive's Resume
+</div>
+
+<div class="content"> 
+    <header style="text-align: center;">
+        <img src="olivepic.png" alt="Olly the happy green Olive smiling" style="border: 10px dotted white;">
+    </header>
+
+    <div style="text-align: center;">
+        <strong>Olly the Olive</strong><br>
+        123 Orchard Grove, Oliveville, OL 12345<br>
+        Phone: (555) 123-4567<br>
+        Email: olly@olivegrove.com 
+    </div>
+
+    <h1>bjective</h1>
+    <p>To be a valued ingredient in culinary creations, bringing unique flavor and nutrition to a wide range of dishes.</p>
+
+    <h2>Profile</h2>
+    <p class="highlight"> A versatile and flavorful olive with a rich history in Mediterranean cuisine. Known for a robust and slightly salty taste, Olly is highly adaptable, adding depth and character to various culinary applications. Dedicated to enhancing the culinary experience with a commitment to quality and tradition.</p>
+
+    <h2>Core Competencies</h2>
+    <p><strong>Flavor Enhancement:</strong> Elevating the taste of dishes with a rich, briny flavor.<br>
+        <strong>Versatility:</strong> Adaptable to both gourmet and casual cuisine, from appetizers to main courses.<br>
+        <strong><a href="https://www.webmd.com/diet/health-benefits-olives" target="blank">Nutritional Value:</a></strong> High in healthy fats, antioxidants, and essential nutrients.<br>
+        <strong>Culinary Presentation:</strong> Aesthetic appeal in salads, pizzas, and gourmet platters.</p>
+
+    <h2>Experience</h2>
+    <p><strong>Mediterranean Bistro</strong> – Oliveville, OL<br>
+        Lead Olive, Gourmet Dishes<br>
+        January 2020 – Present<br>
+    </p>
+
+    <ul>
+        <li>Served as a key ingredient in a variety of Mediterranean dishes, including tapenade, pasta, and salads.</li>
+        <li>Collaborated with chefs to create innovative and flavorful recipes that highlight the olive’s natural attributes.</li>
+        <li>Maintained consistent quality, ensuring each dish met the restaurant’s high standards.</li>
+    </ul>
+
+    <p><strong>Pizzeria Bella</strong> – Oliveville, OL<br>
+        Topper Olive, Signature Pizzas<br>
+        June 2018 – December 2019<br>
+    </p>
+
+    <ul>
+        <li>Featured as the primary topping in specialty pizzas, contributing to the pizzeria’s best-selling items.</li>
+        <li>Worked with a team of ingredients to balance flavors and textures, achieving a perfect culinary harmony.</li>
+        <li>Received accolades for consistency in flavor and texture, enhancing the overall customer experience.</li>
+    </ul>
+
+    <p><strong>Olive Grove Delights</strong> – Oliveville, OL<br>
+        Main Ingredient, Olive Tapenade<br>
+        March 2016 – May 2018<br></p>
+
+    <ul>
+        <li>Integral component of the popular olive tapenade, loved for its rich flavor and smooth texture.</li>
+        <li>Ensured the freshness and quality of each batch, maintaining a high level of customer satisfaction.</li>
+        <li>Played a role in product development, experimenting with different herb combinations to create new variations.</li>
+    </ul>
+
+    <h2>Skills</h2>
+
+    <ul>
+        <li>Studied under the guidance of top chefs to master the art of flavor balancing and culinary presentation.</li>
+        <li>Gained extensive knowledge of Mediterranean dishes and the role of olives in traditional and modern recipes.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <h3>Olive Academy – Oliveville, OL</h3>
+    <p>Degree in Culinary Application, Specialization in <a href="https://en.wikipedia.org/wiki/Mediterranean_cuisine" target="blank">Mediterranean Cuisine</a><br>
+        Graduated: May 2016
+    </p>
+
+    <h3>Certifications</h3>
+    <ul>
+        <li>Certified Organic Olive – Organic Produce Certification Board</li>
+        <li>Sustainable Farming Practices – Green Agriculture Association</li>
+        <li>Excellence in Culinary Arts – Oliveville Culinary Institute</li>
+    </ul>
+
+    <h3>References</h3>
+    Available upon request.<br>
+</div>
+
+<div class="bottom-bar">
+    © 2024 Olly the Olive. All rights reserved.
+</div>
+
+</body>
+</html>
